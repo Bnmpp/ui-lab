@@ -33,8 +33,8 @@ Tool parts that I chose: Part 2 (Selenium WebDriver in Java) and Part 4 (Cypress
 - Step 4.3, failure message for the wrong title: `Timed out retrying after 10000ms + expected - actual -'Web form' +'Web Form' at Context.eval (webpack://cypress/./cypress/e2e/web-form.cy.js:6:15) `
 - Step 4.6, tool and calories in the answer of POST /api/pizza:
 - Step 4.7, the line of the admin list that shows your pizza:
-- Step 4.8, run 1, result, duration and pizza name:
-- Step 4.8, run 2, result, duration and pizza name:
+- Step 4.8, run 1, result, duration and pizza name: ✔ All specs passed! 00:11 2 2 - - - 
+- Step 4.8, run 2, result, duration and pizza name: ✔ All specs passed! 00:16 2 2 - - - 
 - Step 4.9 (optional), browser and result:
 
 ## Part B
