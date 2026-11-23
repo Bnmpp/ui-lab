@@ -55,7 +55,5 @@ class WebFormTest extends BaseTest {
         wait.until(ExpectedConditions.titleIs("Web form - target page"));
         assertEquals("Received!",
                 driver.findElement(By.id("message")).getText());
-
-        // Add the next part above this line.
     }
 }

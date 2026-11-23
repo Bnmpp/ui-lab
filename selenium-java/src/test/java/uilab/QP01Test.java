@@ -93,8 +93,6 @@ class QP01Test extends BaseTest {
                 "//li[contains(., '" + pizzaName + "')]")));
         assertTrue(entry.getText().contains("(tool=" + tool + ","),
                 entry.getText());
-
-        // Add the next step above this line.
     }
 
     // Returns the rest of the result line that starts with the label.
