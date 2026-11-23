@@ -22,7 +22,7 @@ Tool parts that I chose: Part 2 (Selenium WebDriver in Java) and Part 4 (Cypress
 | 7    | Lab Pizza 20261124-002500 (tool=Scissors, ingredients_number=6), same tool as step 4 | Pass |
 
 ## Part 2: Selenium WebDriver in Java
-- Step 2.4, the failure line for the wrong title:
+- Step 2.4, the failure line for the wrong title: `uilab.FirstTest.webFormOpens -- Time elapsed: 1.259 s <<< FAILURE!`
 - Step 2.15, QP01Test run 1, result and time:
 - Step 2.15, QP01Test run 2, result and time:
 - Step 2.20, full run 1, time and number of tests:
