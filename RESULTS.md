@@ -5,10 +5,10 @@ Tool parts that I chose: Part 2 (Selenium WebDriver in Java) and Part 4 (Cypress
 ## Part 0
 - Step 0.1, Chrome version: Google Chrome 157.0.8103.79 (arm64)
 - Step 0.3, ChromeDriver version: ChromeDriver 157.0.8103.79 (6dc9bc3bdaea5c35ed6d41fceab2f7a3a2227c4f-refs/branch-heads/8103@{#1574})
-- Step 0.4, locator of Pizza, Please!:
-- Step 0.4, locator of Excluded tools:
-- Step 0.4, locator of Must be vegetarian:
-- Step 0.4, locator of Custom Pizza Name:
+- Step 0.4, locator of Pizza, Please!: `button[name="pizza-please"]` (CSS, 1 match)
+- Step 0.4, locator of Excluded tools: `select` (CSS, the only select on the page, 1 match; options Knife, Pizza cutter, Scissors)
+- Step 0.4, locator of Must be vegetarian: `#default-checkbox` (CSS id, 1 match)
+- Step 0.4, locator of Custom Pizza Name: `input#pizza-name` (CSS, 1 match; `#pizza-name` alone finds 2 after Pizza, Please!, the box and the h2 of the answer)
 - Step 0.5, pizza name, tool and calories of the run by hand:
 
 | Step | Actual result | Pass or fail |
