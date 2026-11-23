@@ -25,8 +25,8 @@ Tool parts that I chose: Part 2 (Selenium WebDriver in Java) and Part 4 (Cypress
 - Step 2.4, the failure line for the wrong title: `uilab.FirstTest.webFormOpens -- Time elapsed: 1.259 s <<< FAILURE!`
 - Step 2.15, QP01Test run 1, result and time: BUILD SUCCESS, Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, test time 7.675 s, Maven total time 8.554 s
 - Step 2.15, QP01Test run 2, result and time: BUILD SUCCESS, Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, test time 12.60 s, Maven total time 13.624 s
-- Step 2.20, full run 1, time and number of tests:
-- Step 2.20, full run 2, time and number of tests:
+- Step 2.20, full run 1, time and number of tests: BUILD SUCCESS, Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, test time 7.809 s+0.858 s+18.95 s+0.968 s+2.082 s, Maven total time 31.413 s
+- Step 2.20, full run 2, time and number of tests: BUILD SUCCESS, Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, test time 12.71 s+0.846 s+7.606 s+1.856 s+1.682 s, Maven total time 25.713 s
 
 ## Part 4: Cypress
 - node --version, npm --version and npx cypress version:
