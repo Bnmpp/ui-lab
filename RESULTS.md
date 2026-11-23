@@ -9,17 +9,17 @@ Tool parts that I chose: Part 2 (Selenium WebDriver in Java) and Part 4 (Cypress
 - Step 0.4, locator of Excluded tools: `select` (CSS, the only select on the page, 1 match; options Knife, Pizza cutter, Scissors)
 - Step 0.4, locator of Must be vegetarian: `#default-checkbox` (CSS id, 1 match)
 - Step 0.4, locator of Custom Pizza Name: `input#pizza-name` (CSS, 1 match; `#pizza-name` alone finds 2 after Pizza, Please!, the box and the h2 of the answer)
-- Step 0.5, pizza name, tool and calories of the run by hand:
+- Step 0.5, pizza name, tool and calories of the run by hand: Lab Pizza 20261124-002500, tool Scissors, 525 calories per slice
 
 | Step | Actual result | Pass or fail |
 |------|---------------|--------------|
-| 1    |               |              |
-| 2    |               |              |
-| 3    |               |              |
-| 4    |               |              |
-| 5    |               |              |
-| 6    |               |              |
-| 7    |               |              |
+| 1    | The heading reads Looking to break out of your pizza routine? | Pass |
+| 2    | Max Calories per Slice (holding 1000), Excluded tools, Must be vegetarian and Custom Pizza Name appeared | Pass |
+| 3    | Fields showed 600, Knife selected, vegetarian ticked, Lab Pizza 20261124-002500 | Pass |
+| 4    | Answer: Name: Lab Pizza 20261124-002500, Tool: Scissors, Calories per slice: 525 | Pass |
+| 5    | The page said Please log in first. | Pass |
+| 6    | Both boxes held admin; after Sign in the page showed Latest pizza recommendations | Pass |
+| 7    | Lab Pizza 20261124-002500 (tool=Scissors, ingredients_number=6), same tool as step 4 | Pass |
 
 ## Part 2: Selenium WebDriver in Java
 - Step 2.4, the failure line for the wrong title:
